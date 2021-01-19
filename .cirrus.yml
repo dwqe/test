@@ -10,6 +10,5 @@ task:
   - flutter clean
   - flutter build ios
   artifacts:
-    path:
-      - "artifact/*.ipa"
+    path: "artifact/*.ipa"
  
