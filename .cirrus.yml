@@ -1,5 +1,5 @@
 macos_instance:
-  image: big-sur-xcode-12.3
+  image: catalina-flutter
 
 task:
   script: 
