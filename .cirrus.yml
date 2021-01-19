@@ -10,7 +10,6 @@ task:
   - flutter clean
   - flutter build ios
   artifacts:
-    paths:
+    path:
       - "artifact/*.ipa"
-    expire_in: 1 day
  
