@@ -2,5 +2,15 @@ macos_instance:
   image: big-sur-xcode-12.3
 
 task:
-  script: flutter doctor
+  script: 
+  - flutter doctor
+  - ls 
+  - cd \ninja_id
+  - flutter packages get
+  - flutter clean
+  - flutter build ios
+  artifacts:
+    paths:
+      - "artifact/*.ipa"
+    expire_in: 1 day
  
