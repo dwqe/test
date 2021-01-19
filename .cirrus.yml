@@ -1,5 +1,5 @@
 macos_instance:
-  image: big-sur-base
+  image: big-sur-xcode-12.3
 
 task:
   script: flutter doctor
