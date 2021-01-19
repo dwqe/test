@@ -1,5 +1,5 @@
 macos_instance:
-  image: cirrusci/flutter:latest
+  image: catalina-flutter
 
 task:
   script: 
